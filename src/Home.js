@@ -6,7 +6,7 @@ const Home = (props)=>{
         <View style= {styles.viewStyle}>
 
             <Image
-                source={require ('../../assets/IUT_Logo.png')}
+                source={require ('../../assets/iut logo.png')}
                 style={styles.imageStyle}
             />
 
