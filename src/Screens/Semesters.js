@@ -6,9 +6,9 @@ const Semesters = (props) => {
     <View style={styles.viewStyle}>
       <View style = {styles.buttonStyle}>
         <Button
-          title="1st Semsester"
+          title="4th Semsester"
           onPress={function (){
-            props.navigation.navigate("semester_1");
+            props.navigation.navigate("semester_4");
             }
           }
           color="cornflowerblue"
@@ -17,9 +17,9 @@ const Semesters = (props) => {
 
       <View style = {styles.buttonStyle}>
         <Button
-          title="2nd Semsester"
+          title="5th Semsester"
             onPress={function (){
-              props.navigation.navigate("semester_2");
+              props.navigation.navigate("semester_5");
               }
             }
           color="cornflowerblue"
@@ -28,9 +28,9 @@ const Semesters = (props) => {
 
       <View style = {styles.buttonStyle}>
         <Button
-          title="3rd Semsester"
+          title="6th Semsester"
             onPress={function (){
-              props.navigation.navigate("semester_3");
+              props.navigation.navigate("semester_6");
               }
           }
           color="cornflowerblue"
